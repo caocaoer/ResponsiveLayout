@@ -1,0 +1,354 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+.swiper-container {
+    height: 100%;
+}
+
+.header {
+    position: fixed;
+}
+
+.content {
+    width: 100%;
+}
+
+@media only handheld and (width:1024px){
+    body{
+        background: red;
+    }
+}
+
+
+.basic {
+    width: 100%;
+    background: url(../img/banner.png) center center/cover no-repeat;
+    position: relative;
+    display:table;
+}
+
+.content .inner-container {
+    vertical-align:middle;   
+    display:table-cell;
+}
+
+.content .inner-box{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1159px;
+}
+
+.basic .headline{
+    width: 40%;
+    float: left;
+}
+
+.login {
+    float: right;
+    width: 363px;
+    height: 317px;
+    background-color: rgba(255,255,255,0.34901960784313724);
+    border-radius: 8px;
+    font-family: 'AdobeInvisFont';
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+}
+.login img {
+    float: left;
+}
+.login input[type='text'],
+.login input[type='password']
+{
+    width: 255px;
+    height: 40px;
+    border-radius: 4px;
+    opcity: 1;
+    border: none;
+    padding-left:10px;
+    -webkit-appearance: none;
+    font-size: 16px;
+}
+.login .title{
+    padding-top: 30px;
+    font-size: 26px;
+}
+
+.content-width {
+    width: 302px;  
+    margin-top: 31px;
+    margin-left: 30px;
+}
+
+.user img {
+    width: 31px;
+    height: 35px;
+}
+
+.pwd img {
+    width: 30px;
+    height: 36px;
+}
+
+.btn .register-btn{
+    background: rgb(234,84,19);
+    border-radius: 4px 0 0 4px;
+}
+
+.btn .login-btn{
+    background: rgb(243,152,0);
+    border-radius: 0 4px 4px 0;
+}
+
+.btn input[type='button']{
+    width: 151px;
+    height: 40px;
+    cursor: pointer;
+    color: #FFFFFF;
+    float: left;
+    border: none;
+    font-family: "Microsoft YaHei";
+    -webkit-appearance: none;
+}
+
+.content .parse {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    display:table; 
+}
+
+.content .inner {
+    vertical-align:middle;   
+    display:table-cell; 
+}
+
+.second,
+.fourth
+{
+    display:table; 
+    width: 100%;
+}
+
+.second .parse
+{
+    vertical-align:middle;   
+    display:table-cell;
+}
+
+.second .parse .inner {
+    padding-left: auto;
+    padding-right: auto;
+}
+
+
+.fourth .parse{
+    vertical-align:middle;   
+    display:table-cell;
+}
+.fourth-box,
+.second-box
+{
+    width: 75%;
+    max-width: 1159px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content .first .inner .left,
+.content .third .inner .left,
+.content .second .second-box .left
+{
+    margin-top: 70px;
+    width: 45%;
+    float: left;
+    text-align: right;
+}
+.content .first .inner .right,
+.content .third .inner .right
+{
+    width: 55%;
+    float: right;
+    text-align: left;
+}
+
+.content .second .second-box .right{
+    width: 50%;
+    float: right;
+    text-align: left;
+}
+
+.content .third .inner .right{
+    width: 45%;
+    float: right;
+    text-align: left;
+}
+
+.content .first p,
+.content .third p,
+.content .second p
+{
+    float: right;
+    width: 100%;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.content .explain
+{
+    margin-left: 28px;
+}
+
+.content .inner img
+{
+    width: 100%;
+}
+
+.content h4 {
+    font-size: 28px;
+    color: #000000;
+    font-family: "Microsoft YaHei";
+}
+
+.content p {
+    font-size: 14px;
+}
+
+.content .line {
+    float: left;
+    width: 28px;
+    height: 21px;
+    border-bottom: 5px solid rgb(243,152,0);
+}
+
+.content .explain {
+    text-align: left;
+}
+.content .explain p {
+    margin-top: 25px;
+}
+
+.content .fourth .top {
+    float: right;
+    width: 50%;
+    margin-bottom: 50px;
+}
+.content .fourth .bottom {
+    text-align: left;
+    width: 70%;
+}
+
+.spacing {
+    background-color: rgb(245,245,245);
+}
+
+.content .fixth .inner .left
+{
+    width: 70%;
+    float: left;
+    text-align: right;
+    margin-top: -20%;
+}
+.content .fixth .inner .right
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 65%;
+}
+
+.content .fixth {
+    position: relative;
+}
+
+@media screen and (min-width: 900px) and (max-width:1100px){
+    .content .fixth .inner .left
+    {
+        margin-top: -10%;
+    }
+    
+    .content .end {
+/*        position: absolute;*/
+        bottom: 0;
+        width: 100%;
+    }
+    .content .end .top .left{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width:1370px){
+    .content .parse,
+    .content .inner-box
+    {
+        width: 75%;
+        max-width: 1159px;
+    }
+}
+
+@media screen and (min-width: 1370px){
+    .content .parse,
+    .content .inner-box {
+        width: 70%;
+        max-width: 1159px;
+    }
+    /*.content .fourth {
+        width: 60%;
+    }*/
+    .content .fourth .top {
+        float: right;
+    }
+    .content .fixth .inner .left
+    {
+        margin-top: -18%;
+    }
+}
+
+.content .headline h4:last-child{
+    display: none;
+}
+
+.second-box .right img{
+    width: 100%;
+}
+
+/*.content .end .footer{
+    display: none;
+}*/
+
+/*箭头指示引导*/
+@-webkit-keyframes start {
+	0%,30% {opacity: 0;-webkit-transform: translate(0,10px);}
+	60% {opacity: 1;-webkit-transform: translate(0,0);}
+	100% {opacity: 0;-webkit-transform: translate(0,-8px);}
+}
+@-moz-keyframes start {
+	0%,30% {opacity: 0;-moz-transform: translate(0,10px);}
+	60% {opacity: 1;-moz-transform: translate(0,0);}
+	100% {opacity: 0;-moz-transform: translate(0,-8px);}
+}
+@keyframes start {
+	0%,30% {opacity: 0;transform: translate(0,10px);}
+	60% {opacity: 1;transform: translate(0,0);}
+	100% {opacity: 0;transform: translate(0,-8px);}
+}
+
+.arrow {
+    position: absolute;
+    z-index: 99;
+    left: 50%;
+    margin-left: -12px;
+    bottom: 20px;
+    text-align: center;
+}
+
+.arrow img { 
+    width: 18px;
+    height: auto;
+    -webkit-animation: start 1.5s infinite ease-in-out;
+    -moz-animation: start 1.5s infinite ease-in-out;
+    animation: start 1.5s infinite ease-in-out;
+    -o-animation: start 1.5s infinite ease-in-out;
+}

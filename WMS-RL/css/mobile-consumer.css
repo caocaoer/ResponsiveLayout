@@ -1,0 +1,57 @@
+.header{
+    border-bottom: 0;
+}
+
+.content {
+    min-height: 200px;
+}
+.content .banner img{
+    display: none;
+}
+
+.content .banner {
+    background: url(../img/consumer-banner.png) center center/cover no-repeat;
+    height: 148px;
+    position: relative;
+    width: 100%;
+}
+
+.content .container h4{
+    font-size: 16px;
+    color: #120707;
+    width: 100%;
+    text-align: center;
+    margin: 35px auto;
+}
+
+.content dl{
+    height: 150px;
+}
+
+.content dl dd img{
+    float: left;
+    width: 30%;
+}
+
+.content dl dd:last-child {
+    width: 65%;
+    float: right;
+}
+
+.content dl dd p{
+    font-size: 14px;
+    color: #494949;
+}
+
+.content .bottom {
+    margin: auto 5px;
+}
+
+@media screen and (max-width: 320px) {
+    .content ul li div {
+        width: 62%;
+    }
+    .content ul li {
+        height: 170px;
+    }
+}

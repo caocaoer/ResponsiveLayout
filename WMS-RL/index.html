@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>首页</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="telephone=no" name="format-detection">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="browsermode" content="application">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="x5-page-mode" content="app">
+    <link rel="stylesheet" media="screen and (min-width: 601px)" href="css/common.css" />
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/mobile-common.css" />
+    <link rel="stylesheet" media="screen and (min-width: 901px)" href="css/index.css" />
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="css/mobile-index.css" />
+    <script src="utils/jquery.min.js"></script>
+    <script type="text/javascript" src="js/head.js"></script>
+</head>
+
+<body class="index">
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" /></a>
+            </div>
+            <ul class="menu head-font-style">
+                <li class="current"><a href="index.html">WMS</a></li>
+                <li><a href="price.html">价格</a></li>
+                <li><a href="consumer.html">客户</a></li>
+                <li><a href="help.html">帮助</a></li>
+            </ul>
+            <div class="header-right head-font-style">
+                <a class="single-page" href="login.html">登录</a>
+                <a class="index-page" href="index.html">登录</a><span>/</span><a href="register.html">注册</a>
+            </div>
+            <div class="btn" id="icon">
+                <img src="img/icon.png" />
+            </div>
+        </div>
+    </div>
+    <div class="nav" style="display:none;">
+        <ul class="menu head-font-style">
+            <a href="index.html">
+                <li class="one current">WMS</li>
+            </a>
+            <a href="price.html">
+                <li>价格</li>
+            </a>
+            <a href="consumer.html">
+                <li>客户</li>
+            </a>
+            <a href="help.html">
+                <li>帮助</li>
+            </a>
+            <a href="login.html">
+                <li>登录</li>
+            </a>
+            <a href="register.html">
+                <li>注册</li>
+            </a>
+        </ul>
+    </div>
+    <div class="content swiper-container">
+        <div class="slide-pages swiper-wrapper">
+            <div class="basic slide-page-item0 box" id="basic">
+                <div class="inner-container">
+                    <div class="inner-box">
+                        <div class="headline">
+                            <h4>中国仓库管理系统<br><br>第一品牌</h4>
+                            <h4>仓储精细化管理<br>必备软件</h4>
+                        </div>
+                        <div class="login">
+                            <div class="title">登录</div>
+                            <div class="user content-width">
+                                <div><img src="img/user.png"></div>
+                                <input type="text" placeholder="用户名">
+                            </div>
+                            <div class="pwd content-width">
+                                <div><img src="img/password.png"></div>
+                                <input type="password" placeholder="密&nbsp;&nbsp&nbsp码">
+                            </div>
+                            <div class="content-width btn">
+                                <a href="register.html"><input type="button" class="register-btn" value="注册"></a>
+                                <input type="button" class="login-btn" value="登录">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="first parse slide-page-item1  box">
+                <div class="inner">
+                    <div class="left">
+                        <div class="line"></div>
+                        <div class="explain">
+                            <h4><label>01. </label>省钱、省时、省力</h4>
+                            <p>SaaS部署，降低您的信息化投入成本，<span>让您专注核心业务</span></p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <img src="img/01.png">
+                    </div>
+                </div>
+            </div>
+            <div class="second spacing box">
+                <div class="parse slide-page-item2">
+                    <div class="second-box">
+                        <div class="left">
+                            <div class="line"></div>
+                            <div class="explain">
+                                <h4><label>02. </label>精准库存，你值得拥有</h4>
+                                <p>仓库操作简单明了，不易出错，同时商品从入库<span>到出库全流 程系统监控，确保库存准确</span></p>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <img src="img/02.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="third parse slide-page-item3 box">
+                <div class="inner">
+                    <div class="left">
+                        <div class="line"></div>
+                        <div class="explain">
+                            <h4><label>03. </label>优化上架/拣货路径，缩短<span>操作员行走和搬运距离</span></h4>
+                            <p><span>收货后，系统指示将畅销品、较重的商品</span><span>放在离打包台较近的库位</span>拣货时，系统指示最短的拣货路径</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <img src="img/03.png">
+                    </div>
+                </div>
+            </div>
+            <div class="fourth  spacing  box">
+                <div class="parse slide-page-item4">
+                    <div class="fourth-box">
+                        <div class="top">
+                            <div class="line"></div>
+                            <div class="explain">
+                                <h4><label>04. </label>快速发货，从未如此简单</h4>
+                                <p><span>便捷的订单发货流程，支持单件订单、</span>多品订单不同的发货业务场景</p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <img src="img/04.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fixth box parse slide-page-item5">
+                <div class="inner">
+                    <div class="left">
+                        <div class="line"></div>
+                        <div class="explain">
+                            <h4><label>05. </label>直观的了解每一个人的工作进度</h4>
+                            <p>在管理看板上，你可以直观地看到拣货员、打包员的工作进度，
+                                <br/>同时操作人员也可以看到自己的排名情况，提高竞争意识和工作积极性</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <img src="img/06.png">
+                    </div>
+                </div>
+                <div class="foot">
+                    <div class="bottom">
+                        <span>Copyright2016 跳羚科技. All Rights Reserved.</span>
+                    </div>
+                </div>
+                <div class="end">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="arrow">
+        <img src="img/icon1.png">
+    </div>
+    <div class="finish">
+        <div class="footer">
+            <div class="top">
+               <div class="left">
+                    <dl>
+                        <dt>公司</dt>
+                        <dd><a>公司简介</a></dd>
+                        <dd><a>联系我们</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>产品</dt>
+                        <dd><a>产品概况</a></dd>
+                        <dd><a>产品价格</a></dd>
+                        <dd><a>客户案例</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>帮助</dt>
+                        <dd><a>如何试用？</a></dd>
+                        <dd><a>如何购买、充值？</a></dd>
+                        <dd><a>快速上手</a></dd>
+                        <dd><a>系统操作</a></dd>
+                        <dd><a>常见问题</a></dd>
+                    </dl>
+                    <dl class="last">
+                        <dd><img src="img/weixin.png"><label>跳羚科技公众号</label></dd>
+                        <dd><img src="img/erweima.png"></dd>
+                    </dl>
+               </div>
+            </div>
+            <div class="bottom">
+                <p>Copyright2016 跳羚科技. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

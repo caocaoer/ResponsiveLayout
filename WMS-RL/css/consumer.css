@@ -1,0 +1,137 @@
+body {
+    overflow-x: hidden;
+}
+
+.content .banner img {
+    width: 100%;
+    height: auto;
+}
+
+.content{
+    margin-bottom: 166px;
+}
+
+.content .top {
+    height: 200px;
+    display: table;
+    -webkit-box-ordinal-group: -1;
+    -moz-box-ordinal-group: -1;
+    -ms-flex-order: -1;
+    -webkit-order: -1;
+    -o-order: -1;
+    order: -1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content .top h4 {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 28px;
+    font-family: "Microsoft YaHei";
+    color: #120707;
+}
+
+.content .container {
+    width: 100%;
+    -webkit-box-flex-flow: column wrap;
+    -moz-box-flex-flow: column wrap;
+    -webkit-flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+    -o-flex-flow: column wrap;
+    flex-flow: column wrap;
+}
+
+.box {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.content .bottom {
+    max-width: 1159px;
+    -webkit-box-flex-flow: row wrap;
+    -moz-box-flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    -o-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+.content .bottom dl {
+    font-size: 14px;
+    color: rgb(73, 73, 73);
+    line-height: 27px;
+    font-family: "Microsoft YaHei";
+}
+
+@media screen and (min-width:900px) {
+    .content .bottom dl {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 25%;
+        -webkit-box-flex: auto;
+        -moz-box-flex: auto;
+        -webkit-flex: auto;
+        -o-flex: auto;
+        -ms-flex: auto;
+        flex: auto;
+        padding: 20px;
+        padding-top: 10px;
+    }
+    .content .bottom dl dd {
+        width: 100%;
+    }
+    .content .bottom dl dd img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+    .content .bottom dl {
+        -webkit-box-flex: auto;
+        -moz-box-flex: auto;
+        -webkit-flex: auto;
+        -o-flex: auto;
+        -ms-flex: auto;
+        flex: auto;
+        padding: 20px;
+        width: 30%;
+        height: auto;
+    }
+    .content .bottom dl dd {
+        width: 100%;
+        text-align: center;
+    }
+    .content .bottom dl dd p {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        text-align: left;
+    }
+    .content .bottom dl dd img {
+        width: 80%;
+        height: auto;
+    }
+    .content .top {
+        height: 170px;
+    }
+    .content{
+        margin-bottom: 100px;
+    }
+}
+
+/*@media screen and (max-width: 600px){
+    body{
+        background: red;
+    }
+    @import 'css/mobile-common.css';
+}*/

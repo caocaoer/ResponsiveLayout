@@ -1,0 +1,146 @@
+body {
+    overflow-x:hidden;
+}
+
+.content {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 132px;
+    margin-bottom: 200px;
+}
+
+.content .container {
+    width: 90%;
+    display: table;
+/*    width: 1129px;*/
+/*    border: 1px solid;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content .type {
+    height: 489px;
+/*    width: 268px;*/
+    width: 22%;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+    background-color:rgb(246,246,246);
+    border-radius: 5px;
+    -webkit-box-shadow:inset 0 0 4px rgb(214,214,214);  
+    -moz-box-shadow:inset 0 0 4px rgb(214,214,214);  
+    box-shadow:inset 0 0 4px rgb(214,214,214); 
+}
+
+.content .type:not(:last-child) {
+    margin-right: 4%;
+}
+
+.content .inner {
+    padding: 26px 26px 0 26px;
+}
+
+.content h4 {
+    color: #F39800;
+    line-height: 36px;
+    font-size: 35px;
+    font-family: 'AdobeInvisFont';
+}
+
+.content .line {
+    background: rgb(243,152,0);
+    width: 100%;
+    height: 2px;
+    margin-top: 10px;
+}
+
+.content span {
+    font-size: 18px;
+    color: RGB(134,134,134);
+    line-height: 36px;
+    font-family: "Microsoft YaHei";
+}
+
+.content .money {
+    margin-top: 80px;
+}
+
+.content input[type='button']{
+    margin-top: 78px;
+    width: 90%;
+    height: 41px;  
+    border-radius: 4px;
+    border-color: #F39800;
+    background-color: rgb(246,246,246);
+    color: #F39800;
+    font-size: 17px;
+    border-style:solid;
+    border-width:2px;
+    -webkit-appearance: none;
+}
+
+.content .num {
+    margin-top: 18px;
+}
+
+.content .money {
+    font-family: 'AdobeInvisFont';
+    color: #F39800;
+    line-height: 36px;    
+}
+
+.content .one .money{
+    font-size: 45px;
+}
+.content .two .money,
+.content .three .money,
+.content .four .money{
+    font-size: 45px;
+/*    font-size: 54px;*/
+}
+
+.content .old-price {
+    font-size: 21px;
+    font-family: "Microsoft YaHei";
+    margin-top: 31px;
+}
+
+.content .red-line{
+    position: relative;
+    top: -35px;
+}
+
+.content .two input[type='button'],
+.content .three input[type='button'],
+.content .four input[type='button']{
+    margin-top: 41.5px;
+}    
+
+.content .type:hover {
+    -webkit-transform:scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform:scale(1.05);
+    background-color: RGB(243,152,0);
+} 
+
+@media screen and (min-width: 1150px){
+    .content .container {
+        width: 80%;
+        max-width: 1159px;
+    }
+    .content .num span:last-child {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1150px) {
+    .content .type {
+        width: 23%;
+    }
+    .content .type:not(:last-child) {
+        margin-right: 2.6666666%;
+    }
+    .content .num span:last-child {
+        display: block;
+    }
+}

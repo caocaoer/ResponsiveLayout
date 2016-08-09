@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>帮助</title>
+    <meta name='renderer' content='webkit'>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="telephone=no" name="format-detection">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="browsermode" content="application">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="x5-page-mode" content="app">
+    <link rel="stylesheet" media="screen and (min-width: 601px)" href="css/common.css" />
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/mobile-common.css" />
+    <link rel="stylesheet" media="screen and (min-width: 601px)" href="css/help.css" />
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/mobile-help.css" />
+    <script type="text/javascript" src="utils/jquery.min.js"></script>
+</head>
+<body class="help" id="help">
+   <div class="header">
+       <div class="container">
+           <div class="logo">
+               <a href="index.html"><img src="img/logo.png"/></a>
+           </div>
+           <ul class="menu head-font-style">
+                <li><a href="index.html">WMS</a></li>
+                <li><a href="price.html">价格</a></li>
+                <li><a href="consumer.html">客户</a></li>
+                <li class="current"><a href="help.html">帮助</a></li>
+            </ul>
+            <div class="header-right head-font-style">
+                <a class="single-page" href="login.html">登录</a>
+                <a class="index-page" href="index.html">登录</a><span>/</span><a href="register.html">注册</a>
+            </div>
+            <div class="btn" id="icon">
+               <img src="img/icon.png"/>
+           </div>
+       </div>
+    </div>
+    <div class="nav" style="display:none;">
+       <ul class="menu head-font-style">
+            <a href="index.html"><li class="one">WMS</li></a>
+            <a href="price.html"><li>价格</li></a>
+            <a href="consumer.html"><li>客户</li></a>
+            <a href="help.html"><li class="current">帮助</li></a>
+            <a href="login.html"><li>登录</li></a>
+            <a href="register.html"><li>注册</li></a>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="menu">
+            <input data-type="use" class="current" type="button" value="快速上手">
+            <input data-type="operate"  class="menu-operate" type="button" value="系统操作指南">
+            <input data-type="question" type="button" value="常见问题">
+        </div>
+        <div class="container-box">
+            <div class="top">
+                <div id="use">
+                    <img src="img/icon1,2.png">
+                </div>
+                <div id="operate">
+                    <img src="img/icon2,1.png">
+                </div>
+                <div id="common-question">
+                    <img src="img/icon3,1.png">
+                </div>
+            </div>
+        </div>
+        <div class="introduce">
+            <div class="box use" >
+                <ul>
+                    <li><div class="line"></div>
+                        <h4 class="selected">30秒快速了解跳羚WMS</h4>
+                        <div class="explain ">
+                            <p>“跳羚WMS”是由成都跳羚科技有限公司研发的，专门为中小微电商企业设计的一款仓储管理软件，跳羚WMS充分考虑了电商订单特点，吸取了亚马逊中国仓储管理的精华。<br/>“跳羚WMS”是一款专业的仓储管理系统，提供完善的上架、拣货、补货等策略，支持多种拣货波次规则，集成PDA手持设备的应用，使库存位置准确化、流程规范化、仓储作业智能化，全面支持仓库内部作业及绩效管理，实现仓储的精细化管理，有效解决发货能力不均、库存位置混乱、对人员依赖过大等仓储管理难题。<br/>“跳羚WMS” 设计简洁、功能完备，同时系统性能有保障，日均可支持至少200万的订单量。</p>
+                            <img src="img/help_06.png">
+                        </div>
+                    </li>
+                    <li><div class="line"></div>
+                        <h4>如何登陆系统？</h4>
+                        <div class="explain" style="display:none;">
+                            <p>在网站首页屏幕右方输入用户名和密码直接登录即可，系统自动鉴别用户角色赋予相应操作菜单和权限。</p>
+                        </div>
+                    </li>
+                    <li><div class="line"></div>
+                        <h4>如何试用?</h4>
+                        <div class="explain" style="display:none;">
+                            <p>注册完毕后登录系统根据操作提示即可开始试用，无需审批，完全自助式，试用期限为7个工作日。</p>
+                        </div>
+                    </li>
+                    <li><div class="line"></div>
+                        <h4>如何设置用户和权限?</h4>
+                        <div class="explain" style="display:none;">
+                            <p>登录系统后在仓库人员管理界面根据界面提示单条添加或者根据人员导入模板批量导入都可以。 系统内置了部分默认角色（支持自定义角色），在添加或者导入的时候选择相应的角色提交即可。</p>
+                        </div>
+                    </li>
+                    <li><div class="line"></div>
+                        <h4>如何购买、充值？</h4>
+                        <div class="explain" style="display:none;">
+                            <p>登录系统后在我的账户界面选择需要购买的套餐并点击充值即可，跟你在网上下单支付一样简单！</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="box operate" style="display:none;">
+                <ul>
+                    <li><div class="line"></div>
+                        <h4 class="selected">基础数据准备</h4>
+                        <div class="explain" >
+                            <h3>第一步：添加仓库信息</h3>
+                            <p>菜单位置：基础档案模块→仓库</p>
+                            <p>点击【新增仓库】按钮，弹出仓库新增窗口，填写仓库信息，其中【仓库编码】、【仓库名称】、【仓库类型】必须填写，其他信息可不填写；填写完后点击【保存】，仓库信息添加成功。</p>
+                            <img src="img/help_01.png">
+                            <h3>第二步：添加货区信息</h3>
+                            <p>菜单位置：基础档案模块→货区</p>
+                            <p>点击【新增货区】按钮，弹出货区新增窗口，填写货区信息，其中【仓库】、【货区名称】、【货区类型】必须填写；填写完后点击【保存】，货区信息添加成功。</p>
+                            <img src="img/help_02.png">
+                            <h3>第三步：添加货位信息</h3>
+                            <p>菜单位置：基础档案模块→货位</p>
+                            <p>点击【新增货位】按钮，弹出货位新增窗口，填写货位信息，其中【所属仓库】、【所属货区】、【货位号】必须填写；填写完后点击【保存】，货位信息添加成功。</p>
+                            <p>也可批量导入货位信息，点击【模板下载】，在下载的excel模板中，按照要求填写货位信息，保存excel，并点击【批量导入】，批量新增货位信息。</p>
+                            <img src="img/help_03.png">
+                            <h3>第四步：添加商品信息</h3>
+                            <p>菜单位置：基础档案模块→商品</p>
+                            <p>点击【新增商品】按钮，弹出商品新增窗口，填写商品信息，其中【商品编码】、【商品名称】【条形码】、【尺寸】必须填写，其他信息可不填写；填写完后点击【保存】，商品信息添加成功。</p>
+                            <p>也可批量导入商品信息，点击【模板下载】，在下载的excel模板中，按照要求填写商品信息，保存excel，并点击【批量导入】，批量新增商品信息。</p>
+                            <img src="img/help_04.png">
+                            <h3>第五步：添加供应商信息</h3>
+                            <p>菜单位置：基础档案模块→商品</p>
+                            <p>点击【新增供应商】按钮，弹出供应商新增窗口，填写供应商信息，其中【供应商编码】、【供应商名称】【必须填写，其他信息可不填写；填写完后点击【保存】，供应商信息添加成功。</p>
+                            <img src="img/help_05.png">
+                        </div>
+                    </li>
+                    <li><div class="line"></div>
+                        <h4>商品进货</h4>
+                        <div class="explain" style="display:none;">
+                            <h3>第一步：</h3>
+                            <p>先在基础档案管理的商品维护管理界面中维护好商品信息。</p>
+                            <h3>第二步：</h3>
+                            <p>在入库管理的采购单创建界面手工录入（或通过Excel导入）您需要入库的商品及数量。</p>
+                            <h3>第三步：</h3>
+                            <p>在入库管理的采购入库界面依次输入采购单号、目标货位、商品条码及数量，确认信息无误后即提交入库了。</p>
+                        </div>
+                    </li>
+                    <li><div class="line"></div>
+                        <h4>商品上架</h4>
+                        <div class="explain" style="display:none;">
+                            <h3>第一步：</h3>
+                            <p>打开商品上架界面</p>
+                            <h3>第二步：</h3>
+                            <p>依次输入源托盘号、目标货位、商品条码及数量后，确认信息无误后即可提交上架了。</p>
+                        </div>
+                    </li>
+                    <li><div class="line"></div>
+                        <h4>订单发货</h4>
+                        <div class="explain" style="display:none;">
+                            <h3>第一步：</h3>
+                            <p>在订单管理的订单导入界面，将要发货出库的订单信息导入系统中。</p>
+                            <h3>第二步：</h3>
+                            <p>在订单打印界面查询选择要发货的订单，点击打印。</p>
+                            <h3>第三步：</h3>
+                            <p>在订单拣货界面操作订单拣货。</p>
+                            <h3>第四步：</h3>
+                            <p>在订单打包界面输入单号及商品信息，校验无误后提交打包。</p>
+                            <h3>第五步：</h3>
+                            <p>在订单出库界面选择订单配送出库。</p>
+                        </div>
+                    </li>
+                    <li><div class="line"></div>
+                        <h4>取消订单处理</h4>
+                        <div class="explain" style="display:none;">
+                            <h3>第一步：</h3>
+                            <p>在出库管理的订单取消界面录入单号，点击提交就可以了。</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="box question" style="display:none;">
+                <ul>
+                    <li><img class="question-img" src="img/q.png">
+                        <h4>系统支持哪种浏览器？</h4>
+                        <div class="explain" >
+                           <img src="img/a.png">
+                            <p>建议使用chrome，firefox、360或高版本IE浏览器</p>
+                        </div>
+                    </li>
+                    <li><img class="question-img" src="img/q.png">
+                        <h4>未及时续费，能正常登录系统吗？</h4>
+                        <div class="explain" style="display:none;"><img src="img/a.png">
+                            <p>未及时续费能正常登录，登录后点击充值按钮即可进行充值操作。</p>
+                        </div>
+                    </li>
+                    <li><img class="question-img" src="img/q.png">
+                        <h4>一台电脑可以同时登录多个账号吗？</h4>
+                        <div class="explain" style="display:none;"><img src="img/a.png">
+                            <p>可以，一台电脑同一浏览器不允许多个帐号登录，但可以使用不同的浏览器进行多用户登录。</p>
+                        </div>
+                    </li>
+                    <li><img class="question-img" src="img/q.png">
+                        <h4>我的订单信息安全吗？</h4>
+                        <div class="explain" style="display:none;"><img src="img/a.png">
+                            <p>我们在网路，系统和验证层面做了多重保护措施，确保用户的订单等信息安全。</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="top">
+           <div class="left">
+                <dl>
+                    <dt>公司</dt>
+                    <dd><a>公司简介</a></dd>
+                    <dd><a>联系我们</a></dd>
+                </dl>
+                <dl>
+                    <dt>产品</dt>
+                    <dd><a>产品概况</a></dd>
+                    <dd><a>产品价格</a></dd>
+                    <dd><a>客户案例</a></dd>
+                </dl>
+                <dl>
+                    <dt>帮助</dt>
+                    <dd><a>如何试用？</a></dd>
+                    <dd><a>如何购买、充值？</a></dd>
+                    <dd><a>快速上手</a></dd>
+                    <dd><a>系统操作</a></dd>
+                    <dd><a>常见问题</a></dd>
+                </dl>
+                <dl class="last">
+                    <dd><img src="img/weixin.png"><label>跳羚科技公众号</label></dd>
+                    <dd><img src="img/erweima.png"></dd>
+                </dl>
+           </div>
+        </div>
+        <div class="bottom">
+            <p>Copyright2016 跳羚科技. All Rights Reserved.</p>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/head.js"></script>
+    <script type="text/javascript" src="js/help.js"></script>
+</body>
+</html>

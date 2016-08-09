@@ -1,0 +1,64 @@
+.box-register{
+    width: 510px;
+    margin: 41px auto auto auto;
+    text-align: center;
+    border: 1px solid #ABABAB;
+    border-radius: 5px;
+    height: 491px;
+}
+.title{
+    padding-top: 30px;
+    font-size: 26px;
+    color: #F39800;
+}
+.content-width {
+    width: 100%;
+    margin-top: 40px;
+    height: 32px;
+}
+.login img {
+    float: left;
+    width: 8%;
+}
+.login input[type='text'], .login input[type='password'] {
+    width: 85%;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 12px;
+    font-size: 16px;
+    float: right;
+    -webkit-appearance: none;
+    border: 1px solid #C9C9C9;
+}
+.login .btn input[type='button'] {
+    width: 50%;
+    height: 40px;
+    cursor: pointer;
+    color: #FFFFFF;
+    float: left;
+    border: none;
+    -webkit-appearance: none;
+}
+.login .btn .register-btn {
+    background: rgb(234,84,19);
+    border-radius: 5px 0 0 5px;
+}
+input, input[type='button'] {
+    outline: 0 none !important;
+    blr: expression(this.onFocus=this.blur());
+}
+.login .btn .login-btn {
+    background: rgb(243,152,0);
+    border-radius: 0 5px 5px 0;
+}
+.login .box p {
+    color: #4A4A4A;
+    float: left;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.box-register .box{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,119 @@
+.content .container-box,
+.content .question ul li img,
+.content .box ul li .explain
+{
+    display: none;
+}
+.content {
+    margin-bottom: 54px;
+    min-height: 562px;
+}
+
+.content .menu {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.menu-operate{
+    margin: auto 10px;
+}
+
+.content .menu input{
+    background-color: #DBDBDB;
+    width: 102px;
+    height: 37px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #DBDBDB;
+    -webkit-appearance: none;
+}
+
+.content .current {
+    background-color: #F39800 !important;
+    border: 1px solid #F39800 !important;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 390px) {
+/*@media screen and (max-width: 320px) {*/
+    .content .menu input{
+        width: 86px;
+        height: 35px;
+        font-size: 13px;
+        -webkit-appearance: none;
+    }
+    .content {
+        min-height: 562px;
+/*        min-height: 400px;*/
+    }
+}
+
+@media screen and (width: 360px) {
+    .content .menu input{
+        width: 95px;
+        height: 35px;
+        font-size: 13px;
+        -webkit-appearance: none;
+    }
+}
+
+@media screen and (width: 375px) {
+    .content {
+        min-height: 494px;
+    }
+}
+
+@media screen and (height: 773px) {
+    .content {
+        min-height: 596px;
+    }
+}
+
+.introduce ul li:first-child{
+    border-top: 1px solid #DADADA;
+}
+
+.introduce h4{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 54px;
+    margin-left: 20px;
+    color: #494949;
+}
+
+.introduce ul li{
+    list-style: none;
+    border-bottom: 1px solid #DADADA;
+}
+
+.explain {
+    border-top: 1px solid #DADADA;
+    padding: 15px 30px;
+    color: #888888;
+    line-height: 25px;
+}
+
+.explain img{
+    width: 100%;
+}
+
+.explain p {
+    font-size: 15px;
+}
+
+.explain img:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.explain p:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.explain h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}

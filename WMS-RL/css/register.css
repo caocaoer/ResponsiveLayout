@@ -1,0 +1,268 @@
+body {
+    background-color: #F5F5F4;
+}
+
+.content {
+    width: 100%;
+    height: 779px;
+}
+
+.content .box {
+/*    width: 40%;*/
+    height: 491px;
+    width: 510px;
+    margin: 41px auto auto auto;
+    text-align: center;
+    border: 1px solid #ABABAB;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+/*.content .register-box {
+    height: 491px;
+}*/
+
+.content .register-box .top {
+    margin-top: 46px;
+/*    margin-top: 64px;*/
+}
+
+.content .register-box .top div{
+/*    width: 80%;*/
+    width: 407px;
+    height: 2px;
+    background-color: #C3CEDA;
+    margin: 53px auto auto auto;
+}
+
+.content .register-box .top h4{
+    font-family: AdobeInvisFont;
+    font-size: 27px;
+    color: #F39800;
+}
+
+.content .register-box .top div img{
+    margin-top: -16px;
+}
+
+.content .register-box .top div .one{
+    float: left;
+    margin-left: -16px;
+}
+
+.content .register-box .top div .three{
+    float: right;
+    margin-right: -16px;
+}
+
+.content .register-box .bottom {
+    width: 439px;
+    margin: 43px auto auto auto;
+}
+
+.content .register-box .bottom .first input[type='text'],
+.content .register-box .bottom input[type='button'],
+.content .register-box .bottom .third input[type='text'],
+.content .register-box .bottom .third input[type='password']
+{
+    height: 46px;
+    border-radius: 10px;
+    -webkit-appearance: none;
+}
+
+.content input[type='text'],
+.content input[type='password']
+{
+    font-size: 16px;
+}
+.content .register-box .bottom input[type='text'],
+.content .register-box .bottom input[type='password']
+{
+    border: 1px solid #C9C9C9;
+    padding-left: 10px;
+/*    width: 95%;*/
+    -webkit-appearance: none;
+    width: 97%;
+/*    width: 435px;*/
+}
+
+.content .register-box .bottom input[type='button']
+{
+    border: 1px solid #F39800;
+    background-color: #F39800;
+    color: #FFFFFF;
+    font-family: AdobeInvisFont;
+    font-size: 19px;
+    margin-top: 12px;
+    width: 435px;
+}
+
+/*.content .register-box .bottom .first .tip {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #F39800;
+    text-align: left;
+}
+
+.content .register-box .bottom .first .validate {
+    margin-top: 16px;
+    width: 396;
+    height: 36px;
+    border: 1px solid;
+}*/
+
+/*.content .bottom .validate-code{
+    margin-top: 25px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -o-flex;
+    display: flex;
+    text-align: left;
+}
+.content .bottom .validate-code input[type='text']{
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -o-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border-radius: 10px 0 0 10px !important;
+}
+.content .bottom .validate-code input[type='button']{
+    margin-top: 0;
+    height: 48px;
+    width: 25%;
+    border: 1px solid #C9C9C9;
+    border-left: none;
+    background-color: white;
+    border-radius: 0 10px 10px 0;
+}*/
+
+.content .register-box .bottom .first .checkbox label{
+    font-family: AdobeInvisFont;
+}
+
+.content .register-box .bottom .first .checkbox {
+    margin-top: 31px;
+    text-align: left;
+    font-size: 15px;
+    color: #989898;
+}
+
+.content .register-box .bottom .first p {
+    margin-top: 12px;
+    font-size: 15px;
+    color: #989898;
+    font-family: AdobeInvisFont;
+    
+}
+
+.content .register-box .bottom a
+{
+    text-decoration: none;
+    color: #F39800;
+    font-family: AdobeInvisFont;
+}
+
+.content .register-box .bottom .second p{
+    font-family: AdobeInvisFont;
+    font-size: 18px;
+    color: #494949;
+}
+
+.content .register-box .bottom .second p label{
+    color: #F39800;
+}
+
+.content .register-box .bottom .second .code input[type='text']{
+    width: 312px;
+    float: left;
+    height: 44px;
+    border-radius: 10px 0 0 10px;
+}
+
+.content .register-box .bottom .second .code input[type='button']{
+    width: 115px;
+    font-size: 16px;
+    margin-top: 0;
+    border-radius: 0 10px 10px 0;
+    font-family: 'Microsoft YaHei';
+}
+
+.content .register-box .bottom .second .code{
+    margin-top: 36px;
+}
+
+.content .register-box .bottom .second .next-btn{
+    margin-top: 52px;
+}
+
+.content .register-box .bottom .back{
+    margin-top: 14px;
+}
+.content .register-box .bottom .back label {
+    font-size: 15px;
+    font-family: AdobeInvisFont;
+    color: #989898;
+}
+
+.content .register-box .bottom .third input[type='text']:not(first-child),
+.content .register-box .bottom .third input[type='password']
+{
+    margin-top: 12px;
+}
+
+.content .register-box .bottom .third input[type='button']{
+    margin-top: 24px;
+}
+
+input[type='text']:focus,
+input[type='password']:focus
+{
+    border: 1px solid #F39800 !important;
+}
+
+.content .register-success {
+    height: 343px;
+}
+.content .register-success h4{
+    font-family: 'AdobeInvisFont';
+    font-size: 18px;
+    color: #000000;
+    margin-top: 46px;
+}
+
+.content .register-success p{
+    font-family: 'AdobeInvisFont';
+    font-size: 16px;
+    margin-top: 42px;
+    color: #F39800;
+}
+
+.content .register-success span{
+    font-family: 'AdobeInvisFont';
+    font-size: 14px;
+    display: block;
+    margin-top: 43px;
+    color: #A0A09F;
+}
+
+.content .register-success input[type='button']{
+    width: 435px;
+    height: 46px;
+    border-radius: 10px;
+    background-color: #F39800;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: AdobeInvisFont;
+    margin-top: 64px;
+    border-color: #F39800;
+    border-style: solid;
+    -webkit-appearance: none;
+}
+.content .single-page{
+    display: none;
+}
